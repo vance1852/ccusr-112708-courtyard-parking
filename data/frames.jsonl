@@ -1,0 +1,17 @@
+{"arrival":1,"received":50,"captured":50,"source":"gA","type":"enter","args":["V1","P1"]}
+{"arrival":2,"received":55,"captured":55,"source":"o-s","type":"spot","args":["o1","present","V1"]}
+{"arrival":3,"received":61,"captured":61,"source":"gA","type":"enter","args":["V2","P2"]}
+{"arrival":4,"received":80,"captured":80,"source":"gB","type":"pass","args":["V1","outer","inner"]}
+{"arrival":5,"received":82,"captured":82,"source":"i-s","type":"spot","args":["i1,i2","present","unknown"]}
+{"arrival":6,"received":110,"captured":110,"source":"desk1","type":"payment_lease","args":["P1","desk1","L1",177]}
+{"arrival":7,"received":115,"captured":115,"source":"desk1","type":"link","args":["offline"]}
+{"arrival":8,"received":120,"captured":120,"source":"ops","type":"price","args":["holiday-close",120]}
+{"arrival":9,"received":122,"captured":122,"source":"i-s","type":"spot","args":["i2","present","V1"]}
+{"arrival":10,"received":130,"captured":130,"source":"exit","type":"exit_req","args":["P1","desk2"]}
+{"arrival":11,"received":131,"captured":131,"source":"exit","type":"gate","args":["P1","open"]}
+{"arrival":12,"received":137,"captured":137,"source":"i-s","type":"spot","args":["i2","empty","V1"]}
+{"arrival":13,"received":137,"captured":125,"source":"desk1","type":"paid","args":["P1","L1","tx1",40]}
+{"arrival":14,"received":137,"captured":125,"source":"desk1","type":"paid","args":["P1","L1","tx1",40]}
+{"arrival":15,"received":141,"captured":141,"source":"exit","type":"exit_req","args":["P1","desk1"]}
+{"arrival":16,"received":147,"captured":147,"source":"ops","type":"correction","args":["i-s","i1,i2","V1"]}
+{"arrival":17,"received":149,"captured":149,"source":"finance","type":"ask","args":["P1"]}

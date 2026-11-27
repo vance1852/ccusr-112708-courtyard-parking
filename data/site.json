@@ -1,0 +1,61 @@
+{
+  "areas": {
+    "outer": {
+      "spaces": [
+        "o1",
+        "o2"
+      ],
+      "rate": 0
+    },
+    "inner": {
+      "spaces": [
+        "i1",
+        "i2"
+      ],
+      "rate": 40
+    },
+    "under": {
+      "spaces": [
+        "u1"
+      ],
+      "rate": 25
+    }
+  },
+  "gates": {
+    "gA": "outer",
+    "gB": "inner",
+    "gC": "under"
+  },
+  "policy": {
+    "free_until": 120,
+    "rates_from_120": {
+      "outer": 15,
+      "inner": 50,
+      "under": 30
+    },
+    "rate_unit": "fen_per_min",
+    "free_rule": "entry_visit",
+    "billing_minute": "pro_rata"
+  },
+  "paypoints": {
+    "desk1": {
+      "offline": true
+    },
+    "desk2": {
+      "offline": true
+    }
+  },
+  "wire_fields": {
+    "enter": "车签 停车号",
+    "pass": "车签 起区 到区",
+    "spot": "位组 状态 车签或unknown",
+    "price": "政策号 开始秒",
+    "exit_req": "停车号 岗亭",
+    "payment_lease": "停车号 岗亭 凭证号 截至秒",
+    "paid": "停车号 凭证号 流水 分币",
+    "gate": "停车号 动作",
+    "link": "连接态",
+    "correction": "探头 位组 车签",
+    "ask": "停车号"
+  }
+}
